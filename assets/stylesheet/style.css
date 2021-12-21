@@ -616,8 +616,8 @@ blockquote {
 }
 
 .about-hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(/assets/media/hero_02.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/assets/media/hero_02.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../assets/media/hero_02.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/media/hero_02.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -634,8 +634,8 @@ blockquote {
 }
 
 .about-features {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../assets/media/hero_02.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/media/hero_02.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(/assets/media/latte.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/assets/media/latte.jpg) no-repeat center center;
   background-size: cover;
   color: black;
   display: -ms-grid;
