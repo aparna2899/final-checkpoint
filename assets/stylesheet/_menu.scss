@@ -1,7 +1,7 @@
 .menu-hero {
   @extend %heading;
-  background: linear-gradient(rgba($primary, 0.9)),
-    url(/assets/media/black_coffee.jpg) no-repeat center center;
+  background: linear-gradient(rgba($primary, 0.9), rgba($primary, 0.9)),
+    url(./assets/media/black_coffee.jpg) no-repeat center center;
   background-size: cover;
 }
 .coffee-products {

@@ -31,8 +31,8 @@
 .hero {
   height: 100vh;
   margin-top: -2rem;
-  background: linear-gradient(rgba(black, 0.75)),
-    url(/assets/media/hero.jpg) no-repeat center center;
+  background: linear-gradient(rgba(black, 0.75), rgba(black, 0.75)),
+    url(./assets/media/hero.jpg) no-repeat center center;
   background-size: cover;
   p {
     width: 60%;
@@ -97,7 +97,7 @@
   }
 }
 .testimony {
-  background: linear-gradient(rgba($primary, 0.8)),
+  background: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.8)),
     url(./assets/media/hero_02.jpg) no-repeat center center;
   background-size: cover;
   padding-bottom: 0;
