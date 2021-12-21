@@ -1,0 +1,47 @@
+.contact-hero {
+  @extend %heading;
+  background: linear-gradient(rgba($primary, 0.9)),
+    url(/assets/media/hero_03.jpg) no-repeat center center;
+  background-size: cover;
+}
+.contact-info {
+  address {
+    display: inline;
+  }
+  span,
+  address {
+    color: $secondary;
+    margin-left: 0.5rem;
+  }
+  h4 {
+    margin-bottom: 2rem;
+  }
+  div {
+    margin: 2rem 0;
+  }
+}
+%form {
+  width: 80%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba($tertiary, 0.2);
+  color: $tertiary;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  padding: 1rem 0;
+  outline: none;
+  &::placeholder {
+    color: $tertiary;
+  }
+}
+input {
+  @extend %form;
+}
+textarea {
+  @extend %form;
+  display: block;
+  font-family: $font;
+}
+iframe {
+  height: 28rem;
+}

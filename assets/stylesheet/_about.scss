@@ -1,0 +1,57 @@
+.about-hero {
+  @extend %heading;
+  background: linear-gradient(rgba($primary, 0.8)),
+    url(/assets/media/hero_02.jpg) no-repeat center center;
+  background-size: cover;
+}
+.about-story {
+  background: linear-gradient(
+    to right bottom,
+    rgba($primary, 0.1),
+    rgba(#ff9604, 0.1)
+  );
+  padding: {
+    left: 20%;
+    right: 20%;
+  }
+  p {
+    margin: 1rem 0;
+    line-height: 2.2;
+  }
+}
+.about-features {
+  background: linear-gradient(rgba($primary, 0.8)),
+    url(/assets/media/latte.jpg) no-repeat center center;
+  background-size: cover;
+  color: $primary;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  padding: 7% 10%;
+  &:hover .about-img {
+    background-color: $secondary;
+    border: none;
+  }
+}
+.about-img {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  padding: 1rem;
+  border: 2px solid $secondary;
+  transition: background-color 500ms ease-in-out;
+}
+.feature {
+  span,
+  strong {
+    display: block;
+  }
+  span {
+    color: $tertiary;
+  }
+  strong {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0.7rem 0;
+    color: $secondary;
+  }
+}

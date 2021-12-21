@@ -1,0 +1,62 @@
+.menu-hero {
+  @extend %heading;
+  background: linear-gradient(rgba($primary, 0.9)),
+    url(/assets/media/black_coffee.jpg) no-repeat center center;
+  background-size: cover;
+}
+.coffee-products {
+  background: linear-gradient(
+    to right bottom,
+    rgba($primary, 0.1),
+    rgba(#ff9604, 0.1)
+  );
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(12.5rem, 1fr));
+  grid-template-rows: repeat(3, 18.7rem);
+  gap: 7rem 4rem;
+  padding-top: 6%;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+  strong {
+    display: block;
+    background: rgba($primary, 0.6);
+    color: $tertiary;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.7rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+.parent {
+  position: relative;
+  transition: transform 300ms linear;
+  &:hover {
+    transform: scale(1.05);
+    &:hover .product-info {
+      display: flex;
+    }
+    &:hover strong {
+      display: none;
+    }
+  }
+}
+.product-info {
+  position: absolute;
+  background-color: rgba($primary, 0.86);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  span {
+    font-size: 1.7rem;
+  }
+}
