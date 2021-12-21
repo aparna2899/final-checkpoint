@@ -1,7 +1,7 @@
 .about-hero {
   @extend %heading;
   background: linear-gradient(rgba($primary, 0.8)),
-    url(./assets/media/hero_02.jpg) no-repeat center center;
+    url(../media/hero_02.jpg) no-repeat center center;
   background-size: cover;
 }
 .about-story {
