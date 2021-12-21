@@ -456,8 +456,8 @@ p {
 .hero {
   height: 100vh;
   margin-top: -2rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(assets/media/hero.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(assets/media/hero.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(../../assets/media/hero.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../../assets/media/hero.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -634,8 +634,8 @@ blockquote {
 }
 
 .about-features {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(assets/media/latte.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/media/latte.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../assets/media/hero_02.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/media/hero_02.jpg) no-repeat center center;
   background-size: cover;
   color: black;
   display: -ms-grid;
@@ -677,8 +677,8 @@ blockquote {
 }
 
 .menu-hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(assets/media/black_coffee.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(assets/media/black_coffee.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../../assets/media/black_coffee.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../assets/media/black_coffee.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -755,8 +755,8 @@ blockquote {
 }
 
 .contact-hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(assets/media/hero_03.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(assets/media/hero_03.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9))), url(../../assets/media/hero_03.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../../assets/media/hero_03.jpg) no-repeat center center;
   background-size: cover;
 }
 
