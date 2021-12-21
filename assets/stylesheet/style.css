@@ -456,8 +456,8 @@ p {
 .hero {
   height: 100vh;
   margin-top: -2rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75))), url(../media/hero.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.75)), url(../media/hero.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75))), url(/assets/media/hero.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.75)), url(/assets/media/hero.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -616,8 +616,8 @@ blockquote {
 }
 
 .about-hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8))), url(../media/hero_02.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.8)), url(../media/hero_02.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8))), url(/assets/media/hero_02.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8)), url(/assets/media/hero_02.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -677,8 +677,8 @@ blockquote {
 }
 
 .menu-hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9))), url(../media/black_coffee.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.9)), url(../media/black_coffee.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9))), url(/assets/media/black_coffee.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9)), url(/assets/media/black_coffee.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -755,8 +755,8 @@ blockquote {
 }
 
 .contact-hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9))), url(../media/hero_03.jpg) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.9)), url(../media/hero_03.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9))), url(/assets/media/hero_03.jpg) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9)), url(/assets/media/hero_03.jpg) no-repeat center center;
   background-size: cover;
 }
 

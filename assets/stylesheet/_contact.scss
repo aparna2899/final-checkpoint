@@ -1,7 +1,7 @@
 .contact-hero {
   @extend %heading;
   background: linear-gradient(rgba($primary, 0.9)),
-    url(../media/hero_03.jpg) no-repeat center center;
+    url(/assets/media/hero_03.jpg) no-repeat center center;
   background-size: cover;
 }
 .contact-info {
