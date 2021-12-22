@@ -7,4 +7,6 @@ function changeHeader(){
         header.classList.remove('active');
     }
 }
-window.onscroll = function() {changeHeader()};
+window.onscroll = function(){
+    changeHeader()
+};
